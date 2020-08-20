@@ -9,7 +9,9 @@ class Game {
   constructor() {}
 
   start() {
-    let cards = prototypeQuestions.map(card => new Card(...Object.values(card)));
+    let cards = prototypeQuestions.map((card) => {
+      return new Card(...Object.values(card))
+    });
     let deck = new Deck(cards);
     this.currentRound = new Round(deck);
     this.printMessage();
@@ -22,7 +24,7 @@ class Game {
   }
 
   printQuestion() {
-      util.main(this.currentRound);
+    util.main(this.currentRound);
   }
 }
 module.exports = Game;

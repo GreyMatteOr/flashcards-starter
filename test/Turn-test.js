@@ -26,7 +26,7 @@ describe('Turn', function() {
     expect(turn1).to.be.an.instanceof(Turn);
   });
 
-  it('should store a user\s guess', function() {
+  it(`should store a user's guess`, function() {
     expect(turn1.guess).to.equal('pug');
   });
 
@@ -34,7 +34,7 @@ describe('Turn', function() {
     expect(turn1.card).to.equal(card);
   });
 
-  it('should be able to return the user\s guess', function() {
+  it(`should be able to return the user's guess`, function() {
     expect(turn1.returnGuess()).to.equal('pug');
   });
 
@@ -52,11 +52,11 @@ describe('Turn', function() {
     expect(turn3.evaluateGuess()).to.equal(true);
   });
 
-  it('should have a function that return \'correct!\') when the guess is right', function() {
+  it(`should have a function that return 'correct!' when the guess is right`, function() {
     expect(turn1.giveFeedBack()).to.equal('correct!');
   });
 
-  it('should have a function that return \'incorrect!\') when the guess is wrong', function() {
+  it(`should have a function that return 'incorrect!' when the guess is wrong`, function() {
     expect(turn1.giveFeedBack()).to.equal('incorrect!');
     expect(turn2.giveFeedBack()).to.equal('incorrect!');
     expect(turn3.giveFeedBack()).to.equal('correct!');

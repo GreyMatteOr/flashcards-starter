@@ -1,6 +1,6 @@
 const Turn = require('../src/Turn');
 
-class Rounds{
+class Rounds {
   constructor(deck) {
     this.deck = deck;
     this.turns = 0;
@@ -14,7 +14,7 @@ class Rounds{
 
   takeTurn(guess) {
     let turn = new Turn(guess, this.returnCurrentCard());
-    if(!turn.evaluateGuess()) {
+    if (!turn.evaluateGuess()) {
       this.incorrect.push(turn.card.id);
     }
     this.turns++;
@@ -28,7 +28,8 @@ class Rounds{
 
   endRound() {
     const durationMessage = this.getDurationMSG();
-    const message = `** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly!\nIt took you ${durationMessage} to complete.`
+    const message = `** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly!
+    It took you ${durationMessage} to complete.`
     return message;
   }
 

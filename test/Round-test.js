@@ -109,7 +109,7 @@ describe('Round', function() {
   });
 
   describe('calculatePercentCorrect', function () {
-        it('should be able to calculate % correct', function() {
+    it('should be able to calculate % correct', function() {
       expect(round.calculatePercentCorrect()).to.be.equal(0);
       round.takeTurn('sea otter');
       expect(round.calculatePercentCorrect()).to.be.equal(100);
@@ -126,6 +126,6 @@ describe('Round', function() {
         round.takeTurn(card.correctAnswer);
       });
       expect(round.endRound()).to.equal('** Round over! ** You answered 100% of the questions correctly!')
-    });    
+    });
   });
 });

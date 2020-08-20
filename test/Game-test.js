@@ -9,7 +9,7 @@ const Round = require('../src/Round');
 
 describe('Game', function() {
   let game, cards, deck, round;
-  beforeEach(function(){
+  beforeEach(function() {
     game = new Game();
     cards = data.map(card => new Card(...Object.values(card)));
     deck = new Deck(cards);

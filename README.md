@@ -27,12 +27,12 @@ to start a game.
 
 Before we begin, please note it is possible to quit the program at any time by pressing `control + C` in the console. Once it's running, the program should display a short greeting followed by the first card in the set. It might look like the following:
 
-<img width="350" alt="Example Launch" src="https://user-images.githubusercontent.com/65369751/90833559-26931c80-e2fd-11ea-844d-6107b884078e.png">
+<img width="700" alt="Example Launch" src="https://user-images.githubusercontent.com/65369751/90833559-26931c80-e2fd-11ea-844d-6107b884078e.png">
 
 Afterwards, you can navigate using up and down to jump between different answers. Pressing `Return` will select the choice, and it will tell you if you were correct or incorrect. Hitting `Return` again will advance to the next question. It's also possible to enter the answer number followed by `Return` to select an answer.
 
-<img width="350" alt="Screen Shot 2020-08-20 at 3 55 07 PM" src="https://user-images.githubusercontent.com/65369751/90833757-8db0d100-e2fd-11ea-8ae2-00038d871037.png">
+<img width="700" alt="Screen Shot 2020-08-20 at 3 55 07 PM" src="https://user-images.githubusercontent.com/65369751/90833757-8db0d100-e2fd-11ea-8ae2-00038d871037.png">
 
 Finally, at the end, the program will display your percentage of question gotten right, as well as how long it took you to complete before closing down.
 
-<img width="463" alt="Screen Shot 2020-08-20 at 5 01 01 PM" src="https://user-images.githubusercontent.com/65369751/90837399-c6a17380-e306-11ea-9cec-6cf2827ab7c6.png">
+<img width="700" alt="Screen Shot 2020-08-20 at 5 01 01 PM" src="https://user-images.githubusercontent.com/65369751/90837399-c6a17380-e306-11ea-9cec-6cf2827ab7c6.png">

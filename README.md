@@ -3,7 +3,7 @@ A [Mod2 Project](https://frontend.turing.io/projects/flash-cards.html) by [Matth
 
 ## Overview
 
-Ever want to run-through some flash-cards but didn't want to bother others to drill you on them? Introducing the flashcards Start Kit!
+Ever want to run-through some flash-cards but didn't want to bother others to drill you on them? Introducing the Flashcards Starter Kit!
 
 This small program runs in the console and run a round of multiple choice flashcards. By default, it stores 30 'cards' over Javascript iterator methods and Object Oriented Programming, but could be modified for any flash-cards you'd like.
 
@@ -15,13 +15,7 @@ Clone down the repo (from your GitHub). If you don't want to name your project "
 git clone [remote-address] [what you want to name the repo]
 ```
 
-After this, open your console and navigate to the root directory of the program. Run the command
-
-```bash
-node index.js
-```
-
-to start a game. 
+After this, open your console and navigate to the root directory of the program. Run the command `node index.js` to start a game. To create your own set of Cards to test, modify the `/src/data.js` with your own questions. It should be decently easy to Grok the formatting, merely replace the question, the answers, and correct answers strings with your preferred information.
 
 ## Playing
 
